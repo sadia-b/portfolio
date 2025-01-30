@@ -1,0 +1,24 @@
+@use "../../styles/partials/variables" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: $secondary-colour;
+  flex-wrap: wrap;
+
+  &__title {
+    margin-left: 18.72px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: none;
+  }
+
+  &__button {
+    margin: 18.72px;
+    border: none;
+    background-color: $secondary-colour;
+  }
+}
