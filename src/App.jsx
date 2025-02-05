@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Header from "./components/Header/Header";
 import "./App.scss";
+import Hero from "./components/Hero/Hero";
+import FilterPanel from "./components/FilterPanel/FilterPanel";
+import About from "./components/About/About";
 
 function App() {
   const [isFilterVisible, setisFilterVisible] = useState(false);
@@ -10,6 +13,9 @@ function App() {
         isFilterVisible={isFilterVisible}
         setisFilterVisible={setisFilterVisible}
       />
+      <Hero />
+      {isFilterVisible ? <FilterPanel /> : null}
+      <About />
     </>
   );
 }

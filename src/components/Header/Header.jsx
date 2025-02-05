@@ -26,7 +26,6 @@ export default function Header({ isFilterVisible, setIsFilterVisible }) {
           </svg>
         </button>
         <ul className="header__list">
-          <li className="header__list-item">Home</li>
           <li className="header__list-item">About</li>
           <li className="header__list-item">Projects</li>
           <li className="header__list-item">Contact</li>
