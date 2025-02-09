@@ -6,26 +6,27 @@ export default function About() {
       <img src="" alt="picture of me" />
       <div>
         <p>
-          Hi, I am Sadia, a Software Engineer. I am located in the Waterloo
-          region but open to work in the GTA. I am a recent Computer Science
-          graduate from Western University with a minor in French .
+          Hi, I am Sadia, a Software Engineer based in the Waterloo region, open
+          to work in the GTA. I recently graduated from Western University with
+          a degree in Computer Science and a minor in French .
         </p>
         <p>
-          My love for coding came from the first year I was in University. I was
-          required to take a programming course where I learned the basics of
-          Java. Since I love mathematics, this felt similar in the sense that it
-          was a problem with a certain algorithm required to solve it. I ended
-          up switching my major to Computer Science.
+          My passion for coding began in the first year of university. I was
+          required to take an introductory Java course where I learned the
+          basics of coding. I was drawn to the problem-solving aspect of
+          programming. Since I love math, this felt similar in the sense that it
+          was a problem with a certain set algorithm. That is when I switched my
+          major to Computer Science.
         </p>
         <p>
-          After completing my degree, I completed Software Engineering bootcamp
-          at Brainstation to help expand my knowledge on full stack skills I
-          didn't previously know.
+          After completing my degree, I completed the Software Engineering
+          bootcamp at Brainstation to strengthen my full-stack development
+          skills and expand my knowledge beyond what I had learned in school.
         </p>
         <p>
-          Outside of coding, I love to read, I enjoy getting recommendations
-          from others. I love animals, if I could live with 50 dogs I would. I
-          also love to travel and try foods of different cultures.
+          Outside of coding, I love reading (always open to recommendations!),
+          traveling, and trying foods from different cultures. I am also a huge
+          animal lover, I would live with 50 dogs if I could!
         </p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import "./App.scss";
 import Hero from "./components/Hero/Hero";
 import FilterPanel from "./components/FilterPanel/FilterPanel";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [isFilterVisible, setisFilterVisible] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       {isFilterVisible ? <FilterPanel /> : null}
       <About />
+      <Projects />
     </>
   );
 }
