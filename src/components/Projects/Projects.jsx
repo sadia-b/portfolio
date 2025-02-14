@@ -16,6 +16,11 @@ export default function Projects() {
           <div className="project__toolkit"></div>
           <div className="project__button-section">
             <button className="project__button">
+              <img
+                className="project__github-photo"
+                src="src\assets\github.svg"
+                alt="github photo"
+              />
               <a
                 className="project__github"
                 href="https://github.com/sadia-b/capstone-frontend"
@@ -84,7 +89,7 @@ export default function Projects() {
             A web application that serves as a chatbot that connects Scotiabank
             advisors with customers in real-time. This was built as part of a
             Scotiabank x Brainstation hackathon with a group of 5 members. I was
-            part of the front-end of this application.
+            part of the front-end team for this application.
           </p>
           <div className="project__toolkit"></div>
           <div className="project__button-section">
@@ -102,7 +107,6 @@ export default function Projects() {
                 GitHub
               </a>
             </button>
-            <button className="project__button">Demo</button>
           </div>
         </div>
       </div>
