@@ -1,0 +1,58 @@
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  background-color: $primary-colour;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__p {
+    width: 400px;
+    margin-right: 80px;
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0 40px;
+  }
+
+  &__list-item {
+    list-style-type: none;
+    padding: 1rem;
+
+    &:hover {
+      background-color: $secondary-colour;
+      border-radius: 8px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__button {
+    height: 80px;
+    width: 80px;
+    background-color: $primary-colour;
+    border-radius: 50%;
+    border: 2px solid $secondary-colour;
+    margin-left: 120px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary-colour;
+    }
+  }
+}

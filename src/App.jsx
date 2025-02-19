@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import FilterPanel from "./components/FilterPanel/FilterPanel";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [isFilterVisible, setisFilterVisible] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       {isFilterVisible ? <FilterPanel /> : null}
       <About />
       <Projects />
+      <Footer />
     </>
   );
 }
